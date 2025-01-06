@@ -1,0 +1,158 @@
+DEBUG - 2025-01-06 13:49:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 13:49:33 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 13:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 13:49:42 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 13:49:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 13:49:43 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 13:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 13:49:48 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 13:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:06:14 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:06:16 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:06:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:06:31 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:06:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:06:38 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:08:23 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:08:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:13:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:13:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa/input_nilai.php"
+[Method: GET, Route: mahasiswa/input-nilai]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa/input_nilai.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa/input_nilai', [], true)
+ 3 APPPATH\Controllers\Teacher\TeacherController.php(21): view('mahasiswa/input_nilai', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teacher\TeacherController->inputNilai()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\TeacherController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\TST Kadey\\TST_UAS_Tugas1_18222074\\Tugas1_TST_18222074\\TST_UAS_Tugas1_18222074\\public\\index.php')
+DEBUG - 2025-01-06 14:14:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:14:22 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "/input_nilai.php"
+[Method: GET, Route: mahasiswa/input-nilai]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/input_nilai.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/input_nilai', [], true)
+ 3 APPPATH\Controllers\Teacher\TeacherController.php(21): view('/input_nilai', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Teacher\TeacherController->inputNilai()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Teacher\TeacherController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\TST Kadey\\TST_UAS_Tugas1_18222074\\Tugas1_TST_18222074\\TST_UAS_Tugas1_18222074\\public\\index.php')
+DEBUG - 2025-01-06 14:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:16:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:16:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:18:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:18:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:18:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:18:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:18:53 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:19:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:19:37 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "mahasiswa/input_mahasiswa.php"
+[Method: GET, Route: mahasiswa/input-mahasiswa]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('mahasiswa/input_mahasiswa.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('mahasiswa/input_mahasiswa', [], true)
+ 3 APPPATH\Controllers\AdminController.php(15): view('mahasiswa/input_mahasiswa', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->inputMahasiswaView()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\TST Kadey\\TST_UAS_Tugas1_18222074\\Tugas1_TST_18222074\\TST_UAS_Tugas1_18222074\\public\\index.php')
+DEBUG - 2025-01-06 14:20:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:22:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:29:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:29:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:29:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:31:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:31:47 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:32:06 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:32:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:32:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:32:20 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:37:21 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-01-06 14:37:24 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/input_nilai.php"
+[Method: GET, Route: admin/input-nilai]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/input_nilai.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('admin/input_nilai', [], true)
+ 3 APPPATH\Controllers\AdminController.php(85): view('admin/input_nilai', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AdminController->inputNilai()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\TST Kadey\\TST_UAS_Tugas1_18222074\\Tugas1_TST_18222074\\TST_UAS_Tugas1_18222074\\public\\index.php')
+DEBUG - 2025-01-06 14:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:38:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:38:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:40:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:40:12 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:40:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:40:19 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:43:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:43:52 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:43:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:43:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:43:57 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2025-01-06 14:44:03 --> Session: Sessions is enabled, and one exists. Please don't $session->start();
+DEBUG - 2025-01-06 14:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:44:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:44:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:44:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-01-06 14:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

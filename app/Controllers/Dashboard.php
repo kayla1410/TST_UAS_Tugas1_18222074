@@ -39,13 +39,4 @@ class Dashboard extends BaseController
         return view('dashboard/admin', $data);
     }
 
-    public function teacher()
-    {
-        $session = session();
-        $data = [
-            'username' => $session->get('username')
-        ];
-
-        return view('dashboard/teacher', $data);
-    }
 }

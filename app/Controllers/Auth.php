@@ -35,8 +35,6 @@ class Auth extends Controller
                         return redirect()->to('/dashboard/mahasiswa');
                     case 'admin':
                         return redirect()->to('/dashboard/admin');
-                    case 'teacher':
-                        return redirect()->to('/dashboard/teacher');
                     default:
                         return redirect()->to('/login')->with('error', 'Invalid role');
                 }

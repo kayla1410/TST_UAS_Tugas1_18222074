@@ -23,9 +23,6 @@
             <h3>Menu</h3>
             <div class="list-group">
                 <a href="/mahasiswa/profil/<?= $nim ?>"class="list-group-item list-group-item-action">Data Pribadi</a>
-                <a href="/mahasiswa/mata-kuliah" class="list-group-item list-group-item-action">Pendaftaran Mata Kuliah</a>
-                <a href="/mahasiswa/ip-generator" class="list-group-item list-group-item-action">IP Generator</a>
-                <a href="/mahasiswa/jadwal-kuliah/<?= $nim ?>"class="list-group-item list-group-item-action">Jadwal Kuliah</a>
             </div>
         </div>
     </div>
