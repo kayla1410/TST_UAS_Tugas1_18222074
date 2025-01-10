@@ -37,6 +37,7 @@ http://studenthub18222074.zya.me/kayla/public
 Clone atau unduh repository ini ke folder `htdocs` di direktori instalasi XAMPP:
 ```bash
 git clone [URL_REPOSITORY]
+```
 atau cukup unduh dan ekstrak file ZIP ke folder htdocs.
 
 ### **2. Konfigurasi XAMPP**
@@ -55,11 +56,13 @@ atau cukup unduh dan ekstrak file ZIP ke folder htdocs.
 Jalankan perintah berikut untuk menginstal dependensi menggunakan Composer:
 ```bash
 composer install
+```
 
 ### **5. Jalankan Aplikasi**
 1. Akses aplikasi melalui browser:
 ```url
 http://localhost/[folder_proyek]
+```
 
 ## Contributors
 ### Kelompok 7 - Final Project
