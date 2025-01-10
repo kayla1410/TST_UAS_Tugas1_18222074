@@ -21,7 +21,7 @@ Tugas UAS 2 II3160 Teknologi Sistem Terintegrasi bertujuan untuk memberikan peng
 http://studenthub18222074.zya.me/kayla/public
 ```
 2. Sign up if you don't have an account yet, then log in to your account.
-3. Log in directly if you want to try using the existing data (username: Kayla, password: Kayla).
+3. Log in directly if you want to try using the existing data (username: Kayla, password: Kayla) or (username: admin, password: admin).
 4. You have successfully accessed the features available on StudentHub.
 5. Welcome to the StudentHub Learning Management System. We hope it provides you with an enjoyable experience!
 
