@@ -4,6 +4,7 @@
 * [General Information](#general-information)
 * [How to Run](#how-to-run)
 * [Contributors](#contributors)
+* [Running the Service on Localhost](#running-the-services-on-localhost)
 
 ## General Information
 Tugas UAS 2 II3160 Teknologi Sistem Terintegrasi bertujuan untuk memberikan pengalaman dalam mengembangkan Layanan Microservices Menggunakan Framework CI4 dan XAMPP. Layanan yang saya buat adalah layanan terkait Learning Management System (LMS) yang bernama StudentHub dengan beberapa fitur, yaitu:
@@ -29,7 +30,7 @@ http://studenthub18222074.zya.me/kayla/public
 ### Kelompok 7 - Final Project
 - Kayla Dyara (18222074)
 
-## Menjalankan Layanan di Localhost
+## Running the Service on Localhost
 ## Persyaratan Sistem
 1. **XAMPP**  
    Unduh dan instal XAMPP dari [https://www.apachefriends.org](https://www.apachefriends.org).
