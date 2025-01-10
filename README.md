@@ -28,3 +28,39 @@ http://studenthub18222074.zya.me/kayla/public
 ## Contributors
 ### Kelompok 7 - Final Project
 - Kayla Dyara (18222074)
+
+## Menjalankan Layanan di Localhost
+## Persyaratan Sistem
+1. **XAMPP**  
+   Unduh dan instal XAMPP dari [https://www.apachefriends.org](https://www.apachefriends.org).
+2. **Composer**  
+   Unduh dan instal Composer dari [https://getcomposer.org](https://getcomposer.org).
+
+## Instalasi
+### 1. Clone atau Unduh Proyek
+Clone atau unduh repository ini ke folder `htdocs` di direktori instalasi XAMPP:
+```bash
+git clone [URL_REPOSITORY]
+atau cukup unduh dan ekstrak file ZIP ke folder htdocs.
+
+### Konfigurasi XAMPP
+1. Buka XAMPP Control Panel dan aktifkan Apache dan MySQL.
+2. Akses PHPMyAdmin melalui http://localhost/phpmyadmin.
+
+### Import Database
+1. Masuk ke PHPMyAdmin.
+2. Buat database baru dengan nama pendidikan_microservices
+3. Import file database dari folder database yang terdapat di root proyek ini:
+- Buka tab Import di PHPMyAdmin.
+- Pilih file .sql yang terdapat dalam folder database.
+- Klik Go untuk mengimpor database.
+
+### Instal Dependensi
+Jalankan perintah berikut untuk menginstal dependensi menggunakan Composer:
+```bash
+composer install
+
+### Jalankan Aplikasi
+1. Akses aplikasi melalui browser:
+```url
+http://localhost/[folder_proyek]
